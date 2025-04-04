@@ -1,0 +1,21 @@
+name: AnReports
+main: com.github.AnReports
+version: 1.0
+api-version: 1.16
+author: anton4k272
+commands:
+  report:
+    description: Пожаловаться на игрока или удалить жалобу.
+    usage: §6Репорты §7» §fИспользование§7: §6/report <Нарушитель> <Причина...>
+    permission: anreports.report
+  reports:
+    description: Открывает графическое меню со списком репортов игроков.
+    usage: §6Репорты §7» §fИспользование§7: §6/reports
+    permission: anreports.reports
+permissions:
+  anreports.report:
+    description: Позволяет игроку сообщать о других игроках.
+    default: op
+  anreports.reports:
+    description: Позволяет игроку просматривать и удалять отчеты.
+    default: op

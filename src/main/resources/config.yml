@@ -1,0 +1,58 @@
+gui:
+  title: "§6Жалобы на игроков"
+  size: 27
+  report_item:
+    material: "PAPER"
+    display_name: "§cСообщил: %reporter% против %reported%"
+    lore:
+      - "§eПричина: %reason%"
+      - "§eВремя: %time%"
+    slots: [10, 11, 12, 13, 14, 15, 16, 19, 20, 21, 22, 23, 24, 25, 28, 29, 30, 31, 32, 33, 34, 37, 38, 39, 40, 41, 42, 43]
+gui:
+  title: "Player Reports"
+  size: 54
+  report_item:
+    material: "PAPER"
+    display_name: "§cСообщил §6%reporter% §cпротив §6%reported%"
+    lore:
+      - "§fПричина§7: §6%reason%"
+      - "§fВремя§7: §6%time%"
+    slots:
+      - 10
+      - 11
+      - 12
+      - 13
+      - 14
+      - 15
+      - 16
+      - 19
+      - 20
+      - 21
+      - 22
+      - 23
+      - 24
+      - 25
+      - 28
+      - 29
+      - 30
+      - 31
+      - 32
+      - 33
+      - 34
+      - 37
+      - 38
+      - 39
+      - 40
+      - 41
+      - 42
+      - 43
+messages:
+  no_permission: "§6Репорты §7» §cУ вас нет разрешения на использование этой команды."
+  report_help:
+    - "§6Репорты §7» §fИспользование§7: §6/report <Нарушитель> <Причина...>"
+  report_submitted: "§6Репорты §7» §fЖалоба на игрока §6{player} §fотправлена по причине§7: §6{reason}"
+  report_deleted: "§6Репорты §7» §fЖалоба с номером §6{report_id} §fбыл удален."
+  report_not_found: "§6Репорты §7» §fЖалоба с номером §6{report_id} §fне найден."
+  invalid_report_id: "§6Репорты §7» §cНеверный формат идентификатора отчета."
+  report_submitted: "§6Репорты §7» §fНа игрок §6{player} §fбыла подана жалоба по причине§7: §6{reason}"
+  command_only_players: "Эту команду могут использовать только игроки."
